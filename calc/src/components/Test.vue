@@ -4,7 +4,7 @@
       {{ msg1 }} - {{ msg2 }}
     </div>
     <div class="message card-body">
-      Answer : {{ answer }}
+      こたえ : {{ answer }}
     </div>
     <div class="message card-body">
       <button v-on:click="calc()" class="btn btn-secondary">Answer</button>
@@ -54,5 +54,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.message.card-body {
+  font-size: 4rem;
 }
 </style>
